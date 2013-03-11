@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3E425ED16EE183F002EE731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E425EC16EE183F002EE731 /* UIKit.framework */; };
+		A3E425EF16EE183F002EE731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E425EE16EE183F002EE731 /* Foundation.framework */; };
+		A3E425F116EE183F002EE731 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E425F016EE183F002EE731 /* CoreGraphics.framework */; };
+		A3E425F716EE183F002EE731 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3E425F516EE183F002EE731 /* InfoPlist.strings */; };
+		A3E425F916EE183F002EE731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E425F816EE183F002EE731 /* main.m */; };
+		A3E425FD16EE183F002EE731 /* LAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E425FC16EE183F002EE731 /* LAAppDelegate.m */; };
+		A3E425FF16EE183F002EE731 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E425FE16EE183F002EE731 /* Default.png */; };
+		A3E4260116EE183F002EE731 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E4260016EE183F002EE731 /* Default@2x.png */; };
+		A3E4260316EE183F002EE731 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E4260216EE183F002EE731 /* Default-568h@2x.png */; };
+		A3E4260616EE183F002EE731 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E4260416EE183F002EE731 /* MainStoryboard.storyboard */; };
+		A3E4260916EE183F002EE731 /* LAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4260816EE183F002EE731 /* LAViewController.m */; };
+		A3E4261116EE183F002EE731 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4261016EE183F002EE731 /* SenTestingKit.framework */; };
+		A3E4261216EE183F002EE731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E425EC16EE183F002EE731 /* UIKit.framework */; };
+		A3E4261316EE183F002EE731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E425EE16EE183F002EE731 /* Foundation.framework */; };
+		A3E4261B16EE183F002EE731 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3E4261916EE183F002EE731 /* InfoPlist.strings */; };
+		A3E4261E16EE183F002EE731 /* LEO__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4261D16EE183F002EE731 /* LEO__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3E4261416EE183F002EE731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E425E116EE183F002EE731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E425E816EE183F002EE731;
+			remoteInfo = "LEO認証";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3E425E916EE183F002EE731 /* LEO認証.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LEO認証.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E425EC16EE183F002EE731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3E425EE16EE183F002EE731 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3E425F016EE183F002EE731 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3E425F416EE183F002EE731 /* LEO認証-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEO認証-Info.plist"; sourceTree = "<group>"; };
+		A3E425F616EE183F002EE731 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3E425F816EE183F002EE731 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3E425FA16EE183F002EE731 /* LEO認証-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEO認証-Prefix.pch"; sourceTree = "<group>"; };
+		A3E425FB16EE183F002EE731 /* LAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAppDelegate.h; sourceTree = "<group>"; };
+		A3E425FC16EE183F002EE731 /* LAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAppDelegate.m; sourceTree = "<group>"; };
+		A3E425FE16EE183F002EE731 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3E4260016EE183F002EE731 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3E4260216EE183F002EE731 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3E4260516EE183F002EE731 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3E4260716EE183F002EE731 /* LAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAViewController.h; sourceTree = "<group>"; };
+		A3E4260816EE183F002EE731 /* LAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAViewController.m; sourceTree = "<group>"; };
+		A3E4260F16EE183F002EE731 /* LEO認証Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEO認証Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E4261016EE183F002EE731 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A3E4261816EE183F002EE731 /* LEO認証Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEO認証Tests-Info.plist"; sourceTree = "<group>"; };
+		A3E4261A16EE183F002EE731 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3E4261C16EE183F002EE731 /* LEO__Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEO__Tests.h; sourceTree = "<group>"; };
+		A3E4261D16EE183F002EE731 /* LEO__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEO__Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E425E616EE183F002EE731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E425ED16EE183F002EE731 /* UIKit.framework in Frameworks */,
+				A3E425EF16EE183F002EE731 /* Foundation.framework in Frameworks */,
+				A3E425F116EE183F002EE731 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4260B16EE183F002EE731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4261116EE183F002EE731 /* SenTestingKit.framework in Frameworks */,
+				A3E4261216EE183F002EE731 /* UIKit.framework in Frameworks */,
+				A3E4261316EE183F002EE731 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E425E016EE183F002EE731 = {
+			isa = PBXGroup;
+			children = (
+				A3E425F216EE183F002EE731 /* LEO認証 */,
+				A3E4261616EE183F002EE731 /* LEO認証Tests */,
+				A3E425EB16EE183F002EE731 /* Frameworks */,
+				A3E425EA16EE183F002EE731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E425EA16EE183F002EE731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E425E916EE183F002EE731 /* LEO認証.app */,
+				A3E4260F16EE183F002EE731 /* LEO認証Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E425EB16EE183F002EE731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E425EC16EE183F002EE731 /* UIKit.framework */,
+				A3E425EE16EE183F002EE731 /* Foundation.framework */,
+				A3E425F016EE183F002EE731 /* CoreGraphics.framework */,
+				A3E4261016EE183F002EE731 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E425F216EE183F002EE731 /* LEO認証 */ = {
+			isa = PBXGroup;
+			children = (
+				A3E425FB16EE183F002EE731 /* LAAppDelegate.h */,
+				A3E425FC16EE183F002EE731 /* LAAppDelegate.m */,
+				A3E4260416EE183F002EE731 /* MainStoryboard.storyboard */,
+				A3E4260716EE183F002EE731 /* LAViewController.h */,
+				A3E4260816EE183F002EE731 /* LAViewController.m */,
+				A3E425F316EE183F002EE731 /* Supporting Files */,
+			);
+			path = "LEO認証";
+			sourceTree = "<group>";
+		};
+		A3E425F316EE183F002EE731 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E425F416EE183F002EE731 /* LEO認証-Info.plist */,
+				A3E425F516EE183F002EE731 /* InfoPlist.strings */,
+				A3E425F816EE183F002EE731 /* main.m */,
+				A3E425FA16EE183F002EE731 /* LEO認証-Prefix.pch */,
+				A3E425FE16EE183F002EE731 /* Default.png */,
+				A3E4260016EE183F002EE731 /* Default@2x.png */,
+				A3E4260216EE183F002EE731 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3E4261616EE183F002EE731 /* LEO認証Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4261C16EE183F002EE731 /* LEO__Tests.h */,
+				A3E4261D16EE183F002EE731 /* LEO__Tests.m */,
+				A3E4261716EE183F002EE731 /* Supporting Files */,
+			);
+			path = "LEO認証Tests";
+			sourceTree = "<group>";
+		};
+		A3E4261716EE183F002EE731 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4261816EE183F002EE731 /* LEO認証Tests-Info.plist */,
+				A3E4261916EE183F002EE731 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E425E816EE183F002EE731 /* LEO認証 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E4262116EE183F002EE731 /* Build configuration list for PBXNativeTarget "LEO認証" */;
+			buildPhases = (
+				A3E425E516EE183F002EE731 /* Sources */,
+				A3E425E616EE183F002EE731 /* Frameworks */,
+				A3E425E716EE183F002EE731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LEO認証";
+			productName = "LEO認証";
+			productReference = A3E425E916EE183F002EE731 /* LEO認証.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3E4260E16EE183F002EE731 /* LEO認証Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E4262416EE183F002EE731 /* Build configuration list for PBXNativeTarget "LEO認証Tests" */;
+			buildPhases = (
+				A3E4260A16EE183F002EE731 /* Sources */,
+				A3E4260B16EE183F002EE731 /* Frameworks */,
+				A3E4260C16EE183F002EE731 /* Resources */,
+				A3E4260D16EE183F002EE731 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E4261516EE183F002EE731 /* PBXTargetDependency */,
+			);
+			name = "LEO認証Tests";
+			productName = "LEO認証Tests";
+			productReference = A3E4260F16EE183F002EE731 /* LEO認証Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E425E116EE183F002EE731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryota MORIWAKI";
+			};
+			buildConfigurationList = A3E425E416EE183F002EE731 /* Build configuration list for PBXProject "LEO認証" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3E425E016EE183F002EE731;
+			productRefGroup = A3E425EA16EE183F002EE731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E425E816EE183F002EE731 /* LEO認証 */,
+				A3E4260E16EE183F002EE731 /* LEO認証Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E425E716EE183F002EE731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E425F716EE183F002EE731 /* InfoPlist.strings in Resources */,
+				A3E425FF16EE183F002EE731 /* Default.png in Resources */,
+				A3E4260116EE183F002EE731 /* Default@2x.png in Resources */,
+				A3E4260316EE183F002EE731 /* Default-568h@2x.png in Resources */,
+				A3E4260616EE183F002EE731 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4260C16EE183F002EE731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4261B16EE183F002EE731 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3E4260D16EE183F002EE731 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E425E516EE183F002EE731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E425F916EE183F002EE731 /* main.m in Sources */,
+				A3E425FD16EE183F002EE731 /* LAAppDelegate.m in Sources */,
+				A3E4260916EE183F002EE731 /* LAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4260A16EE183F002EE731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4261E16EE183F002EE731 /* LEO__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3E4261516EE183F002EE731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E425E816EE183F002EE731 /* LEO認証 */;
+			targetProxy = A3E4261416EE183F002EE731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3E425F516EE183F002EE731 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E425F616EE183F002EE731 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3E4260416EE183F002EE731 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E4260516EE183F002EE731 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A3E4261916EE183F002EE731 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E4261A16EE183F002EE731 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3E4261F16EE183F002EE731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3E4262016EE183F002EE731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E4262216EE183F002EE731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEO認証/LEO認証-Prefix.pch";
+				INFOPLIST_FILE = "LEO認証/LEO認証-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3E4262316EE183F002EE731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEO認証/LEO認証-Prefix.pch";
+				INFOPLIST_FILE = "LEO認証/LEO認証-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3E4262516EE183F002EE731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEO認証.app/LEO認証";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEO認証/LEO認証-Prefix.pch";
+				INFOPLIST_FILE = "LEO認証Tests/LEO認証Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A3E4262616EE183F002EE731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEO認証.app/LEO認証";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEO認証/LEO認証-Prefix.pch";
+				INFOPLIST_FILE = "LEO認証Tests/LEO認証Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E425E416EE183F002EE731 /* Build configuration list for PBXProject "LEO認証" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E4261F16EE183F002EE731 /* Debug */,
+				A3E4262016EE183F002EE731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E4262116EE183F002EE731 /* Build configuration list for PBXNativeTarget "LEO認証" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E4262216EE183F002EE731 /* Debug */,
+				A3E4262316EE183F002EE731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3E4262416EE183F002EE731 /* Build configuration list for PBXNativeTarget "LEO認証Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E4262516EE183F002EE731 /* Debug */,
+				A3E4262616EE183F002EE731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E425E116EE183F002EE731 /* Project object */;
+}
