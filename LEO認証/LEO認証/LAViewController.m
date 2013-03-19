@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.account.delegate = self;
+    self.password.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,8 +26,42 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)authenticate:(id)sender {
-    UIAlertView* av = [[UIAlertView alloc] initWithTitle:@"タイトル" message:@"メッセージ" delegate:self cancelButtonTitle:@"キャンセ〜る"otherButtonTitles:@"おっけ〜", nil];
+    NSLog(@"sender");
+    // fixme accountのTextFieldを入力すると何故かこのメソッドが
+    // コールされる。なぜ？？？？
+    if(sender != self.account)
+    {
+        UIAlertView* av = [[UIAlertView alloc] initWithTitle:self.account.text
+            message:self.password.text
+            delegate:self
+            cancelButtonTitle:@"キャンセ〜る"
+            otherButtonTitles:@"おっけ〜",
+            nil];
     [av show];
+    }
 }
+
+-(BOOL)textFieldShouldReturn:(UITextField*)textField
+{
+    UITextField* target = NULL;
+    if(textField == self.account)
+    {
+        NSLog(@"account return");
+        target = self.account;
+    }
+    else
+    {
+        NSLog(@"password return");
+        target = self.password;
+    }
+    if(target != NULL)
+    {
+        [target resignFirstResponder];
+    }
+    return YES;
+}
+
+
 @end

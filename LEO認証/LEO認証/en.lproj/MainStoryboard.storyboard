@@ -30,15 +30,47 @@
                                     <action selector="authenticate:" destination="2" eventType="touchUpInside" id="VhU-KK-wIQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55F-qS-I2g">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lKY-GA-dZC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="FVa-L4-ccY"/>
+                                    <constraint firstAttribute="height" constant="30" id="aRa-z6-XHP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="authenticate:" destination="2" eventType="editingDidEnd" id="onf-iK-w7D"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lFC-FK-iw1">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="lFC-FK-iw1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="163" id="157-iv-06k"/>
                             <constraint firstItem="JHx-O8-Ftt" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="92" id="36C-Jd-Mhm"/>
                             <constraint firstItem="JHx-O8-Ftt" firstAttribute="top" secondItem="3" secondAttribute="top" constant="235" id="36D-OX-GHQ"/>
-                            <constraint firstItem="acy-ru-SC8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="78" id="Jlo-40-dLy"/>
-                            <constraint firstItem="acy-ru-SC8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="126" id="aAy-Wt-l22"/>
+                            <constraint firstItem="lKY-GA-dZC" firstAttribute="top" secondItem="3" secondAttribute="top" constant="121" id="X2R-cW-4xb"/>
+                            <constraint firstItem="acy-ru-SC8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="43" id="ZoI-Do-RzI"/>
+                            <constraint firstAttribute="trailing" secondItem="lKY-GA-dZC" secondAttribute="trailing" constant="48" id="aAw-xD-KUI"/>
+                            <constraint firstItem="lKY-GA-dZC" firstAttribute="baseline" secondItem="acy-ru-SC8" secondAttribute="baseline" type="default" id="azF-R2-PsB"/>
+                            <constraint firstItem="acy-ru-SC8" firstAttribute="leading" secondItem="55F-qS-I2g" secondAttribute="leading" type="default" id="bUj-ES-rKC"/>
+                            <constraint firstItem="55F-qS-I2g" firstAttribute="top" secondItem="3" secondAttribute="top" constant="161" id="iYt-Yi-KXr"/>
+                            <constraint firstItem="lFC-FK-iw1" firstAttribute="leading" secondItem="lKY-GA-dZC" secondAttribute="leading" type="default" id="kja-se-xsw"/>
+                            <constraint firstItem="lFC-FK-iw1" firstAttribute="trailing" secondItem="lKY-GA-dZC" secondAttribute="trailing" type="default" id="nHl-Y6-f0S"/>
+                            <constraint firstItem="lKY-GA-dZC" firstAttribute="centerY" secondItem="acy-ru-SC8" secondAttribute="centerY" type="default" id="qhE-pG-ZRQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="account" destination="lKY-GA-dZC" id="JDm-H3-r6X"/>
+                        <outlet property="password" destination="lFC-FK-iw1" id="PN0-Y5-Lbx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,6 +82,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LAViewController.h"/>
             <relationships>
                 <relationship kind="action" name="authenticate:"/>
+                <relationship kind="outlet" name="account" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

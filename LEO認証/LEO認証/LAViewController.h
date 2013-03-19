@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LAViewController : UIViewController
+@interface LAViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *account;
 - (IBAction)authenticate:(id)sender;
-
+-(BOOL)textFieldShouldReturn:(UITextField*)textField;
 @end
